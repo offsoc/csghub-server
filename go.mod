@@ -42,7 +42,7 @@ require (
 	github.com/uptrace/bun/driver/sqliteshim v1.1.16
 	github.com/uptrace/bun/extra/bundebug v1.1.16
 	gitlab.com/gitlab-org/gitaly/v16 v16.11.8
-	go.temporal.io/api v1.40.0
+	go.temporal.io/api v1.44.1
 	go.temporal.io/sdk v1.30.0
 	google.golang.org/grpc v1.66.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -238,7 +238,7 @@ require (
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/arch v0.8.0 // indirect
 	golang.org/x/crypto v0.31.0
-	golang.org/x/net v0.28.0 // indirect
+	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
