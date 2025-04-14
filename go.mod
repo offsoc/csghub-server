@@ -1,8 +1,7 @@
 module opencsg.com/csghub-server
 
 go 1.22.0
-
-toolchain go1.22.6
+toolchain go1.24.1
 
 require (
 	github.com/DATA-DOG/go-txdb v0.2.0
@@ -17,7 +16,7 @@ require (
 	github.com/gin-contrib/cors v1.7.0
 	github.com/gin-contrib/sessions v0.0.5
 	github.com/gin-gonic/gin v1.10.0
-	github.com/golang-jwt/jwt/v5 v5.2.1
+	github.com/golang-jwt/jwt/v5 v5.2.2
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
 	github.com/google/wire v0.6.0
 	github.com/jarcoal/httpmock v1.3.1
@@ -42,7 +41,7 @@ require (
 	github.com/uptrace/bun/driver/sqliteshim v1.1.16
 	github.com/uptrace/bun/extra/bundebug v1.1.16
 	gitlab.com/gitlab-org/gitaly/v16 v16.11.8
-	go.temporal.io/api v1.40.0
+	go.temporal.io/api v1.44.1
 	go.temporal.io/sdk v1.30.0
 	google.golang.org/grpc v1.66.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -71,7 +70,7 @@ require (
 	github.com/census-instrumentation/opencensus-proto v0.4.1 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
-	github.com/containerd/containerd v1.7.18 // indirect
+	github.com/containerd/containerd v1.7.27 // indirect
 	github.com/containerd/log v0.1.0 // indirect
 	github.com/containerd/platforms v0.2.1 // indirect
 	github.com/cpuguy83/dockercfg v0.3.2 // indirect
@@ -102,7 +101,8 @@ require (
 	github.com/moby/docker-image-spec v1.3.1 // indirect
 	github.com/moby/patternmatcher v0.6.0 // indirect
 	github.com/moby/sys/sequential v0.5.0 // indirect
-	github.com/moby/sys/user v0.1.0 // indirect
+	github.com/moby/sys/user v0.3.0 // indirect
+	github.com/moby/sys/userns v0.1.0 // indirect
 	github.com/moby/term v0.5.0 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/naoina/go-stringutil v0.1.0 // indirect
@@ -188,7 +188,7 @@ require (
 	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang-jwt/jwt/v4 v4.5.1 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
@@ -237,17 +237,17 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/arch v0.8.0 // indirect
-	golang.org/x/crypto v0.31.0
-	golang.org/x/net v0.28.0 // indirect
+	golang.org/x/crypto v0.35.0
+	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/term v0.27.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.35.2
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
